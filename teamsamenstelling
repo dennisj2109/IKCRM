@@ -5,3 +5,8 @@ git commit -m "Initial commit"
 git branch -M main
 git remote add origin https://github.com/dnnisj2109/team-overzicht-app.git
 git push -u origin main
+
+cd /mnt/user-data/outputs/team-app
+git add vercel.json
+git commit -m "Fix: add rewrites for SPA routing"
+git push
